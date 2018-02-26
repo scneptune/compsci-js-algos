@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --debug --full-trace"
+    "test": "./node_modules/mocha/bin/mocha --full-trace ./tests"
   },
   "author": "SCNEPTUNE (@scneptune)",
   "license": "ISC",
